@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #05315F;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+#logo{
+    height: 50px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+#link{
+    color: #fff;
+} 
+
+/* SEÇÃO DO BANNER */
+
+.banner img {
+    max-width: 1366px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .banner .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 200px;
+    padding-top: 100px;
+    color: #fff; /* Cor do texto e botão */
+  }
+  
+  .banner h1 {
+    padding-top: 80px;
+    font-size: 70px;
+    margin: 0;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 600;
+    line-height: 0.8;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.486);
+  }
+  
+  .banner p {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 0.9;
+  }
+  
+  .banner button {
+    background-color: #F55353; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+
+/* ondas */
+#wave{
+    position: absolute;
+    top: 65%;
+    left: 0;
+    width: 1366px;
+    height: auto; 
+    z-index: 1; 
+}
+
+form {
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  background-color: rgba(255, 255, 255, .1);
+  width: 500px;
+  padding: 20px;
+  /* border: 1px solid rgba(255, 255, 255, .5); */
+  border-radius: 10px;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #F55353;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+footer{
+  background-color: #143F6B;
+  height: 1000px;
+}
+
