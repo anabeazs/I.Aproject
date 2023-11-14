@@ -1,0 +1,87 @@
+/* CSS DA TELA DE RESULTADOS */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  body{
+    background: radial-gradient(circle, #3498db, #143F6B);
+  }
+
+  h1{
+    margin-top: 80px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.486);
+
+  }
+  #form1{
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  #formText{
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.48);
+    font-size: 25px;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #linha{
+    width: 50%; 
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 1px;
+    background-color: #ffffff77;
+    }
+
+  #query{
+    border-radius: 30px;
+    width: 400px;
+    height: 50px;
+    border-style: none;
+    background-color: rgba(206, 203, 203, 0.247);
+    padding: 10px;
+  }
+
+  #botaoEnviar{
+    background-color: #F55353;
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    border-style: none;
+    color: #fff;
+    left: 50%;
+  }
+#results{
+    width: 100%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+#c1{
+    background-color: rgb(26, 103, 170);
+
+}
+
+#c2{
+    background-color: rgb(233, 167, 44);
+}
+#c3{
+    background-color: rgb(107, 182, 233);
+}
